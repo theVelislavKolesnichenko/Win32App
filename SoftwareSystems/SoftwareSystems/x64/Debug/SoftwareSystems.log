@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  SoftwareSystems.cpp
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(343,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(370,9): warning C4101: 'rt': unreferenced local variable
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(517,9): warning C4101: 'result': unreferenced local variable
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(517,22): warning C4101: 'end': unreferenced local variable
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(794,34): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(801,34): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(814,34): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(821,34): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(833,32): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(845,32): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(1030,50): warning C4311: 'type cast': pointer truncation from 'HBRUSH' to 'LONG'
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(1030,50): warning C4302: 'type cast': truncation from 'HBRUSH' to 'LONG'
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(1061,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(1065,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\SoftwareSystems\SoftwareSystems.cpp(1069,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  SoftwareSystems.vcxproj -> F:\DevRepository\DevRepository\VisualStudio\Win32App\SoftwareSystems\x64\Debug\SoftwareSystems.exe

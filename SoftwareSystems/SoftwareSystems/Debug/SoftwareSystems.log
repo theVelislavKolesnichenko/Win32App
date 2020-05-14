@@ -1,0 +1,5 @@
+﻿  SoftwareSystems.cpp
+e:\devrepository\visualstudio\win32app\softwaresystems\softwaresystems\softwaresystems.cpp(370): warning C4101: 'rt': unreferenced local variable
+e:\devrepository\visualstudio\win32app\softwaresystems\softwaresystems\softwaresystems.cpp(517): warning C4101: 'result': unreferenced local variable
+e:\devrepository\visualstudio\win32app\softwaresystems\softwaresystems\softwaresystems.cpp(517): warning C4101: 'end': unreferenced local variable
+  SoftwareSystems.vcxproj -> E:\DevRepository\VisualStudio\Win32App\SoftwareSystems\Debug\SoftwareSystems.exe

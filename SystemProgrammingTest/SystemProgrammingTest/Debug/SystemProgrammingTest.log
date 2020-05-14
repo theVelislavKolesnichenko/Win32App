@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  SystemProgrammingTest.cpp
+H:\DevRepository\VisualStudio\Win32App\SystemProgrammingTest\SystemProgrammingTest\SystemProgrammingTest.cpp(266,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+H:\DevRepository\VisualStudio\Win32App\SystemProgrammingTest\SystemProgrammingTest\SystemProgrammingTest.cpp(1231,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+H:\DevRepository\VisualStudio\Win32App\SystemProgrammingTest\SystemProgrammingTest\SystemProgrammingTest.cpp(1258,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  SystemProgrammingTest.vcxproj -> H:\DevRepository\VisualStudio\Win32App\SystemProgrammingTest\Debug\SystemProgrammingTest.exe
