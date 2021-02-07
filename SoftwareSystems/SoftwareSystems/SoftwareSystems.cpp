@@ -398,8 +398,24 @@ LRESULT CALLBACK Example2DialogBox(HWND hDlg, UINT message, WPARAM wParam, LPARA
 
 	case WM_COMMAND:
 		//wmId = LOWORD(wParam);
-		switch (wParam)
+		switch (HIWORD(wParam))
 		{
+		case EN_CHANGE:
+		{
+			if (LOWORD(wParam) == IDC_EDIT1) {
+				TCHAR buff[10000];
+				GetDlgItemText(hDlg, IDC_EDIT1, buff, sizeof(buff));
+				int lastIndex = _tcslen(buff);
+				TCHAR lastValue = buff[lastIndex - 1];
+				if (lastValue >= '0' && lastValue <= '9')
+				{
+					TCHAR newBuff[10000];
+					_tcsncpy_s(newBuff, buff, (lastIndex - 2));
+					SetDlgItemText(hDlg, LOWORD(wParam), newBuff);
+				}
+			}
+		}
+		break;
 		case IDOK:
 		case IDCANCEL:
 			EndDialog(hDlg, LOWORD(wParam));
@@ -431,7 +447,7 @@ LRESULT CALLBACK Example2DialogBox(HWND hDlg, UINT message, WPARAM wParam, LPARA
 			MessageBox(hDlg, buff, L"Word", MB_OKCANCEL | MB_ICONSTOP);
 			break;
 		}
-		break;
+	break;
 	}
 
 	return FALSE;
